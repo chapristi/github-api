@@ -19,7 +19,7 @@ class github{
             CURLOPT_URL => "https://api.github.com/" . $this -> link,
             CURLOPT_HTTPHEADER => [
                 'Content-Type: text/plain',
-                'User-Agent: Louis',
+                'User-Agent: name',
                
                ' X-RateLimit-Limit: 10000',
                "Authorization: Bearer token "
