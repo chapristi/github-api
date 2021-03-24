@@ -2,6 +2,8 @@
 class github{
     public $link;
     public function __construct($link){
+            const TOKEN  = "";
+
         $this->link = $link;
     }    
     /**
@@ -22,7 +24,7 @@ class github{
                 'User-Agent: name',
                
                ' X-RateLimit-Limit: 10000',
-               "Authorization: Bearer token "
+               "Authorization: Bearer " . github::TOKEN
             ],
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
