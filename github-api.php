@@ -1,4 +1,5 @@
 <?php
+namespace App
 class github{
     private $link;
     public function __construct($link){
