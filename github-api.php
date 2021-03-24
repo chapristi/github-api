@@ -1,6 +1,6 @@
 <?php
 class github{
-    public $link;
+    private $link;
     public function __construct($link){
         const TOKEN  = "";
 
