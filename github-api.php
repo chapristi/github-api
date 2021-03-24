@@ -2,7 +2,7 @@
 class github{
     public $link;
     public function __construct($link){
-            const TOKEN  = "";
+        const TOKEN  = "";
 
         $this->link = $link;
     }    
